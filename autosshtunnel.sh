@@ -8,7 +8,7 @@
 # autossh monitoring port (unique)
 MPORT=54321
 # the ssh tunnel to setup
-TUNNEL="-L 8888:localhost:22"
+TUNNEL="-R 8888:localhost:22"
 # remote user
 RUSER="archer"
 
